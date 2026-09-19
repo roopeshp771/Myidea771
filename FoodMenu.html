@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color:#27ae60
+            padding: 20px;
+        }
+
+        .menu-container {
+            max-width: 800px;
+            margin: auto;
+            background-image:url('file:///C:/Users/lenovo/Downloads/ade289056cc4fd3d15a78db6fd28abc3.jpg');
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color:blanchedalmond;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .menu-section {
+            margin-bottom: 30px;
+        }
+
+        .menu-section h2 {
+            color: #d35400;
+            border-bottom: 2px solid #d35400;
+            padding-bottom: 5px;
+        }
+
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .item-name {
+            color:aliceblue;
+            font-weight: bold;
+        }
+
+        .item-price {
+            color: #27ae60;
+            font-weight: bold;
+        }
+
+        .item-description {
+            font-size: 0.9em;
+            color: red;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="menu-container">
+        <h1>The Roopesh Restaurant</h1>
+        <h3>The best Food item's</h3>
+
+        <!-- Appetizers -->
+        <div class="menu-section">
+            <h2>Appetizers</h2>
+            <div class="menu-item">
+                <span class="item-name">CHICKEN BIRIYANI</span>
+                <span class="item-price">-/125 rs</span>
+            </div>
+            <div class="item-description">order this chicken Biriyani its very spice.</div>
+
+            <div class="menu-item">
+                <span class="item-name">DRAGON CHICKEN</span>
+                <span class="item-price">-/225 rs</span>
+            </div>
+            <div class="item-description">the dragon chicken comming from my house.</div>
+        </div>
+
+        <!-- Main Course -->
+        <div class="menu-section">
+            <h2>Main Course</h2>
+            <div class="menu-item">
+                <span class="item-name">DUM BIRIYANI FULL MANDI</span>
+                <span class="item-price">-/1199 rs</span>
+            </div>
+            <div class="item-description">trusted taste of rich flavours</div>
+
+            <div class="menu-item">
+                <span class="item-name">THE SPECIAL THAALI COMBO WITH MUTTON</span>
+                <span class="item-price">-/499 rs</span>
+            </div>
+            <div class="item-description">this is combo types chicken biriyani,rotty,chicken carry,france and some
+                carrys with cooldrink</div>
+        </div>
+
+        <!-- Drinks -->
+        <div class="menu-section">
+            <h2>COOLDRINKS</h2>
+            <div class="menu-item">
+                <span class="item-name">BLUE BERRY DRINK</span>
+                <span class="item-price">-/99 rs</span>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">Iced Coffee</span>
+                <span class="item-price">-/109 rs</span>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
